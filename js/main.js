@@ -140,10 +140,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (id === 'todo') {
       data.todo.splice(data.todo.indexOf(text), 1);
-      data.completed.push(textContent);
+      data.completed.push(text);
     } else {
       data.completed.splice(data.completed.indexOf(text), 1);
-      data.todo.push(textContent);
+      data.todo.push(text);
     }
 
 
